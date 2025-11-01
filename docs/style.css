@@ -18,14 +18,14 @@ header {
     z-index: 1;
     box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.5);
 }
-header > a {
+header > a, #bgimg > section > div > a {
     color: #9d1f09;
     text-decoration: none;
     font-family: "Bricolage Grotesque";
     font-size: 2.5vw;
     padding: 30px;
 }
-header > a:hover {
+header > a:hover, #bgimg > section > div > a:hover {
     color: black;
     transition: 0.5s;
     margin-top: 2px;
@@ -57,4 +57,41 @@ main > #bgimg > h1 {
     justify-content: center;
     color: #9d1f09;
     margin: 50px;
+}
+.arts {
+    max-width: 15vw;
+    margin-left:100px;
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.5);
+}
+#bgimg > section > div > a {
+    font-size: 4vw;
+    display: flex;
+    text-align: center;
+    gap: 5vw;
+}
+section > div > a > img {
+    display: flex;
+}
+section {
+    display: block;
+    justify-content: center;
+    
+}
+footer {
+    background: linear-gradient(rgba(0, 0, 0, 0.5)), url(./assets/footerimg.jpg);
+    width: 100vw;
+    height: 100vh;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+footer > h1,h6 {
+    position: relative;
+    top: 50%;
+    text-align: center;
+    color: white;
+    font-family: "Bricolage Grotesque";
+    font-size: 4vw;
+}
+footer > h6 {
+    font-size: 1.5vw;
 }

@@ -95,3 +95,44 @@ footer > h1,h6 {
 footer > h6 {
     font-size: 1.5vw;
 }
+.form-container {
+    padding: 20px;
+}
+input, textarea {
+    width: 300px;
+    padding: 12px;
+    border: 1px solid rgb(204, 204, 204);
+    border-radius: 4px;
+    box-sizing: border-box;
+    margin: 5px;
+}
+#submit {
+    background-color: #9d1f09;
+    color: rgb(255, 255, 255);
+    padding: 12px 20px;
+    border-width: 0px;
+    border-style: none;
+    border-color: rgb(255, 255, 255);
+    display: block;
+}
+form > input,textarea {
+    margin: auto;
+    display: block;
+}
+label {
+    display: block;
+    justify-content: center;
+    text-align: center;
+    font-size: 2vw;
+    color: #9d1f09;
+    font-family: "Bricolage Grotesque";
+    margin: 10px;
+}
+#submit {
+    margin-top: 10px;
+    cursor: pointer;
+}
+#submit:hover {
+    background-color: #570d00;
+    transition: 0.5s;
+}
